@@ -46,3 +46,23 @@ public class Student {
         System.out.println("ID: " + id);
     }
 }
+// Main.java
+package com.example;
+
+public class Main {
+    public static void main(String[] args) {
+        // Create a new student
+        Student student1 = new Student("John Doe", 20, "123456");
+
+        // Display student information
+        student1.displayInfo();
+
+        // Update student information
+        student1.setName("Jane Doe");
+        student1.setAge(21);
+
+        // Display updated information
+        student1.displayInfo();
+    }
+}
+
